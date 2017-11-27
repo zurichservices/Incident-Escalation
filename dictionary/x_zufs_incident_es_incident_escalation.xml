@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Incident Escalation" max_length="40" name="x_zufs_incident_es_incident_escalation" sizeclass="2" type="collection">
+        <element choice="1" label="Level" mandatory="true" max_length="40" name="level" type="choice">
+            <choice>
+                <element label="Expedite" sequence="10" value="expedite"/>
+                <element label="Level 1" sequence="20" value="level_1"/>
+                <element label="Level 2" sequence="30" value="level_2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Root cause" mandatory="true" max_length="40" name="root_cause" type="choice">
+            <choice>
+                <element label="Communication / language" sequence="10" value="communication_language"/>
+                <element label="Delay in resolution" sequence="20" value="delay_in_resolution"/>
+                <element label="End user expectations" sequence="30" value="end_user_expectations"/>
+                <element label="Knowledge gap" sequence="40" value="knowledge_gap"/>
+                <element label="Reoccurring issue" sequence="50" value="reoccurring_issue"/>
+                <element label="Resolution not provided" sequence="60" value="resolution_not_provided"/>
+                <element label="Resolver group - Process not followed" sequence="70" value="resolver_group_process_not_followed"/>
+                <element label="Service desk - Process error" sequence="80" value="service_desk_process_error"/>
+                <element label="Service desk - Agent error" sequence="90" value="service_desk_agent_error"/>
+                <element label="Service desk - Process not followed" sequence="100" value="service_desk_process_not_followed"/>
+            </choice>
+        </element>
+    </element>
+</database>

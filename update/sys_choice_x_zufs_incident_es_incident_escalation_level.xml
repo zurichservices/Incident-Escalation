@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="level" table="x_zufs_incident_es_incident_escalation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expedite</label>
+            <language>en</language>
+            <name>x_zufs_incident_es_incident_escalation</name>
+            <sequence>10</sequence>
+            <sys_created_by>ac.admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:54:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae28e4cedb6e0b002ff3547adc96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ac.admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:54:25</sys_updated_on>
+            <value>expedite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Level 1</label>
+            <language>en</language>
+            <name>x_zufs_incident_es_incident_escalation</name>
+            <sequence>20</sequence>
+            <sys_created_by>ac.admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:54:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c48a4cedb6e0b002ff3547adc9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ac.admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:54:42</sys_updated_on>
+            <value>level_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Level 2</label>
+            <language>en</language>
+            <name>x_zufs_incident_es_incident_escalation</name>
+            <sequence>30</sequence>
+            <sys_created_by>ac.admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5348a4cedb6e0b002ff3547adc9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ac.admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:54:57</sys_updated_on>
+            <value>level_2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>level</element>
+            <name>x_zufs_incident_es_incident_escalation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ac.admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:54:25</sys_created_on>
+            <sys_id>ea3828cadb6e0b002ff3547adc96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>level</sys_name>
+            <sys_package display_value="Incident Escalation" source="x_zufs_incident_es">2137ec4edb6e0b002ff3547adc961987</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Incident Escalation">2137ec4edb6e0b002ff3547adc961987</sys_scope>
+            <sys_update_name>sys_choice_x_zufs_incident_es_incident_escalation_level</sys_update_name>
+            <sys_updated_by>ac.admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:54:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

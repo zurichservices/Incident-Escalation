@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_zufs_incident_es.incident_escalation_user" name="x_zufs_incident_es.incident_escalation_user">62b7ec4edb6e0b002ff3547adc9619a9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>ac.admin</sys_created_by>
+        <sys_created_on>2017-11-21 16:52:13</sys_created_on>
+        <sys_id>22b7ec4edb6e0b002ff3547adc9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>62b7ec4edb6e0b002ff3547adc9619a9</sys_name>
+        <sys_package display_value="Incident Escalation" source="x_zufs_incident_es">2137ec4edb6e0b002ff3547adc961987</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Escalation">2137ec4edb6e0b002ff3547adc961987</sys_scope>
+        <sys_update_name>sys_embedded_help_role_22b7ec4edb6e0b002ff3547adc9619ab</sys_update_name>
+        <sys_updated_by>ac.admin</sys_updated_by>
+        <sys_updated_on>2017-11-21 16:52:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
