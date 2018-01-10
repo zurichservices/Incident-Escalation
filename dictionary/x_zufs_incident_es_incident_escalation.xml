@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Incident Escalation" max_length="40" name="x_zufs_incident_es_incident_escalation" sizeclass="2" type="collection">
+    <element audit="true" extends="task" label="Incident Escalation" max_length="40" name="x_zufs_incident_es_incident_escalation" sizeclass="5" type="collection">
         <element choice="1" label="Level" mandatory="true" max_length="40" name="level" type="choice">
             <choice>
                 <element label="Expedite" sequence="10" value="expedite"/>
