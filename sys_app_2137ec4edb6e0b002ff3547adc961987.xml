@@ -7,7 +7,7 @@
         <licensable>true</licensable>
         <license_model>none</license_model>
         <logo/>
-        <menu/>
+        <menu display_value="Incident Escalations">6eb720cedb6e0b002ff3547adc9619fc</menu>
         <name>Incident Escalation</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_zufs_incident_es</source>
-        <store_correlation_id>REPOAPP0000050982</store_correlation_id>
+        <store_correlation_id>REPOAPP0000050983</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>ac.admin</sys_created_by>
         <sys_created_on>2017-11-21 16:49:59</sys_created_on>
         <sys_id>2137ec4edb6e0b002ff3547adc961987</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>ac.admin</sys_updated_by>
-        <sys_updated_on>2018-02-03 18:46:39</sys_updated_on>
+        <sys_updated_on>2018-02-03 19:00:59</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role/>
+        <user_role display_value="x_zufs_incident_es.incident_escalation_user" name="x_zufs_incident_es.incident_escalation_user">62b7ec4edb6e0b002ff3547adc9619a9</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>
